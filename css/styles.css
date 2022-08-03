@@ -1,8 +1,8 @@
 /* Color Palette
-# - color 1
-# - color 2
-# - color 3
-# - color 4
+#b6bcf0 - lavender
+#a4f7ff - tealish blue
+#ffeaac - beige
+#beeeed - light peach
 */
 
 /* Global styles 
@@ -11,16 +11,46 @@ body {
     background: lightblue;
 }
 
+h1,h2,h3,h4{
+    font-family: 'Raleway', sans-serif;
 
-/* Header & Footer 
+}
+
+/* Header 
 ------------------------------------*/
+header{
+    background: #b6bcf0;
+}
 
+header h1{
+    font-size: 2.5em;
+    margin-top: 50%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
 
+header h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:600;
+}
 
 /* Work Experience
 ------------------------------------*/
-
+.styleWork{
+    background: #a4f7ff;
+}
 
 
 /* Education
 ------------------------------------*/
+.styleEducation{
+    background: #ffeaac;
+}
+
+/* Footer
+----------------------------------- */
+.styleFooter{
+    background: #ffe7d7;
+    padding: 15px;
+    text-align: center;
+}
