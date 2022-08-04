@@ -34,6 +34,10 @@ header h2{
     font-weight:600;
 }
 
+.profile-img{
+    width: 800px;
+}
+
 /* Work Experience
 ------------------------------------*/
 .styleWork{
